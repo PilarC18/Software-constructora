@@ -77,3 +77,49 @@ h2{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 14px;
  }
+
+ /* rwdSi el tamaño maximo del dispositivo es 640px entonces... celulares*/
+ @media(max-width: 640px){
+  header{
+    text-align: center;
+  }
+  #menu ul{
+    flex-direction: column;
+    display: block;
+    align-items: center;
+  }
+  #menu li a{
+   width: 90%;
+   height: 40 px;
+  }
+  .formulario{
+    width: 90%;
+    text-align:left;
+    padding: 0px 0px 0px 0px
+  }
+  .boton_formulario{
+    width: 30%;
+    height: 40 px;
+  }
+  .caja_grande{
+    width: 95%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* tamaño para pantallas intermedias*/
+@media(min-width: 640px) and (max-width: 1280 px){
+
+ .formulario{
+  width: 94%;
+  text-align:left;
+  padding: 0px 0px 0px 0px
+ }
+
+ .caja_grande{
+  width: 95%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+}
