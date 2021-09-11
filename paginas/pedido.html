@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcadia Ecoinversiones</title>
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="estilo">
+            <nav id="menu">
+                <a href="Index.html" target="blank">
+                    <img src="/img/logo.png" width="200" , height="100" alt="Mi página" />
+                </a>
+
+                <!--etiqueta Ul para declarar una lista, aparece con viñetas -->
+                <ul id="menu">
+                    <!-- Poner items a la lista-->
+                    <li><a href="" target="blank">Usuario</a></li>
+                    <li><a href="salir.html" target="blank">Salir</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <center>
+            <h2> REGISTRAR PEDIDO </h2>
+            <br />
+            <br />
+            <form class="formulario">
+                <!--para aplicar el  estilo en línea se hace dentro del label como se muestra a continuacion*/-->
+                <label class="diseño_label" for="">Número de proyecto</label>
+                <select value="proyecto">
+                    <option value="proyecto1">proyecto1</option>
+                    <option value="proyecto2">proyecto2</option>
+                    <option value="proyecto3">proyecto3</option>
+                </select> </br></br>
+                <label class="diseño_label" id="label_numero_orden_pedido" form="numero_orden_pedido">Número de
+                    orden:</label>
+                <input type="text" id="numero_orden_pedido" name="txtNumeroOrdenPedido"
+                    placeholder="consecutivo"></br></br>
+                <label class="diseño_label" for="">Seleccione ubicación </label>
+                <select value="ubicación">
+                    <option value="casa1">Casa1</option>
+                    <option value="casa2">Casa2</option>
+                    <option value="casa3">Casa3</option>
+                </select> </br></br>
+                <label class="diseño_label" for="">Número de pedido</label>
+                <select value="pedido">
+                    <option value="Pedido1">Pedido1</option>
+                    <option value="Pedido2">Pedido2</option>
+                    <option value="Pedido3">Pedido3</option>
+                </select> </br></br>
+                <label class="diseño_label"> Fecha de pedido: </label>
+                <input type="date" name="txtFechaPedido"> </br></br>
+            </form>
+            </br></br>
+            <h2> listado de materiales </h2>
+            <br />
+            <table class="estilo_tabla">
+                <tr>
+                    <th>N° ITEM</th>
+                    <th>MATERIAL</th>
+                    <th>ALMACEN</th>
+                    <th>CANTIDAD</th>
+                    <th>UM</th>
+                    <th>TOTAL</th>
+                    <th>USO</th>
+                    <th>FECHA UTIL</th>
+                    <th>OBSERVACION</th>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </table>
+            </br>
+            </br>
+            <center>
+                <input class=boton_formulario type="submit" value="Grabar">
+                <input class=boton_formulario type="submit" value="Cancelar">
+                <input class=boton_formulario type="submit" value="Modificar">
+            </center>
+    </main>
+    </header>
+
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>
