@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Acceso Contratista</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/carousel.css">
+
+    <title>Contratista</title>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--barra de navegacion-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index_Portada.html"><img src="../img/logoBN.png" class="img-fluid"
+                    width="200px" height="200px" alt="Logo_Empresa"></a>
+            <span class="navbar-text">
+                <h4>Bienvenido Contratista</h4>
+            </span>
+            <p><a class="btn btn-outline-danger" href="Index_Portada.html">Salir
+                    &raquo;</a></p>
+        </div>
+    </nav>
+
+    <!-- MBarra Lateral
+================================================== -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="sidebar-sticky pt-3">
+
+                    <ul class="list-group">
+                        <li class="list-group-item active" aria-current="true">
+                            <a class="nav-link active" href="#" style="color: whitesmoke;">
+                                <img src="../img/home.png" width="24" height="24" role="img" preserveAspectRatio="none"
+                                    focusable="false"></img>
+                                Contratista <span class="sr-only"></span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="Index_Contratista_OrdenarODMC.html">
+                                <img src="../img/solicitar.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Ordenar ODM
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="Index_Contratista_DevolverODMC.html">
+                                <img src="../img/devolver.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Devolver ODM
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="Index_Contratista_Inspeccionar.html">
+                                <img src="../img/inspeccionar.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Inspeccionar
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="Index_Contratista_Reportar.html">
+                                <img src="../img/reportar.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Reportar
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+
+                <canvas class="my-4 w-100 chartjs-render-monitor" id="myChart" width="711" height="300"
+                    style="display: block; width: 569px; height: 240px;"></canvas>
+
+                <!-- Ingreso a las opciones"> -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="../img/solicitar.png" width="140" height="140" role="img" preserveAspectRatio="none"
+                            focusable="false"></img>
+                        <h2>Ordenar ODM</h2>
+                        <p>Realiza la solicitud de insumos para la ejecución de fase asignada</p>
+                        <p><a class="btn btn-outline-success" href="Index_Contratista_OrdenarODMC.html">Ingresar
+                                &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../img/devolver.png" width="140" height="140" role="img" preserveAspectRatio="none"
+                            focusable="false"></img>
+                        <h2>Devolver ODM</h2>
+                        <p>Realiza la devolución de insumos que han quedado disponibles</p>
+                        <p><a class="btn btn-outline-success" href="Index_Contratista_DevolverODMC.html">Ingresar
+                                &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../img/inspeccionar.png" width="140" height="140" role="img"
+                            preserveAspectRatio="none" focusable="false"></img>
+                        <h2>Inspeccionar</h2>
+                        <p>Permite verificar el estado de insumos o labores</p>
+                        <p><a class="btn btn-outline-success" href="Index_Contratista_Inspeccionar.html">Ingresar
+                                &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../img/reportar.png" width="140" height="140" role="img" preserveAspectRatio="none"
+                            focusable="false"></img>
+                        <h2>Reportar</h2>
+                        <p>Notifica de hallazgos al Directr de Obra</p>
+                        <p><a class="btn btn-outline-success" href="Index_Contratista_Reportar.html">Ingresar
+                                &raquo;</a></p>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- FOOTER -->
+    <footer class="container" width="80">
+        <p class="float-left"> Desarrollado por: Grupo Orion</p>
+        <p>&copy; 2021 Group. Misión TICs. &middot; </p>
+    </footer>
+
+</body>
+
+</html>
