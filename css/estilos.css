@@ -1,63 +1,43 @@
-.container{
- background-color: blue;
-  width:100%;
-  height: 140px;
-  display:inline-block
-}
-.container1{
-  background-color: blueviolet;
-  display: flex; 
-}
 
-.container1_1{
-  background-color: red;
-  width:50%;
-  height: 140px;
-  display: flex; 
+.logo_constructora{
+  height: 100px;
+  background-color: black;
+  text-align:center;
 }
-.container1_2{ 
-background-color: rgb(60, 255, 0);
-width: 50%;
-height: 140px;
-text-align: right;
-}
- 
-#menu ul{
+.usuario_c{
+  height: 100px;
+  background-color: black;
   display: flex;
-  list-style: none;
+  align-items: center;
   justify-content: center;
+  }
+.color_l{
+  color:grey;
 }
 
-#menu li a{
+.salir_c{
+  background-color:black;
   display: flex;
-  width: 200px;
-  height: 40px;
-  background-color: rgb(87, 74, 50);
-  color: white;
-  margin: 0px 20px 30px 0;
-  text-decoration: none;
-  /*padding-top: 14px;*/
-  text-align: right;
+  align-items: center;
+  justify-content: center;
   }
-#menu a:hover{
-    background-color: rgb(119, 100, 60);
-    cursor:pointer;
-  }
-.container2{
-width:100%;
-display: flex;
+
+.boton_s{
+    width: 200px;
+    height: 40px;
+}
+.color1{
+  background-color: darkgrey;
+  text-align: center;
+}
+.color2{
+  background-color: darkslateblue;
 }
 
-.container2_1{
-width: 30%;
-height: 100px;
+.color3{
+  background-color:dodgerblue;
 }
-
-.container2_2{
-  
-width: 70%;
-height: 100px;
-}
+/*
 .diseño_boton{
   width: 30%;
   height: 30px;
@@ -66,16 +46,18 @@ height: 100px;
   Color:white;
   display:flex
 }
-
+*/
   
-
+/*
 .formulario{
-  width: 60%;
-  background-color: rgba(92, 87, 84, 0.815);
+  width: 100%;
+  background-color: rgba(92, 87, 84, 0.247);
+  color:black;
   text-align: left;
-  padding: 20px 0px 20px 50px;
-  color:white ;
-  }
+}
+*/
+  
+  
 
 .diseño_label{
   width: 50% ;
@@ -83,14 +65,15 @@ height: 100px;
   }
 
 .diseño_input{
-  display: inline-block;
   width: 50%;
+  display: inline-block;
+  
   }
+
 .boton_formulario{
   width: 200px;
   height: 40px;
   background-color: rgb(87, 74, 50);
-  color:white ;
   border-style: solid;
   border-color: rgb(87, 74, 50);
   }
@@ -99,11 +82,7 @@ height: 100px;
   background-color: rgb(119, 100, 60);
   cursor:pointer;
 }
-
-h2{
-  background-color: rgba(119, 100, 60, 0.678);
-  color:white ;
-}
+/*
 .estilo_tabla{
   width: 80%;
   border-collapse: collapse;
@@ -118,7 +97,7 @@ h2{
    font-size: 14px;
  }
 
- /* rwdSi el tamaño maximo del dispositivo es 640px entonces... celulares*/
+ /* rwdSi el tamaño maximo del dispositivo es 640px entonces... celulares
  @media(max-width: 640px){
   header{
     text-align: center;
@@ -147,7 +126,7 @@ h2{
     margin-bottom: 20px;
   }
 }
-/* tamaño para pantallas intermedias*/
+/* tamaño para pantallas intermedias
 @media(min-width: 640px) and (max-width: 1280 px){
 
  .formulario{
@@ -163,3 +142,4 @@ h2{
 }
 
 }
+*/
