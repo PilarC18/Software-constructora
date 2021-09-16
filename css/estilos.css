@@ -97,7 +97,7 @@
    font-size: 14px;
  }
 
- /* rwdSi el tamaño maximo del dispositivo es 640px entonces... celulares
+ /* rwdSi el tamaño maximo del dispositivo es 640px entonces... celulares*/
  @media(max-width: 640px){
   header{
     text-align: center;
@@ -126,7 +126,7 @@
     margin-bottom: 20px;
   }
 }
-/* tamaño para pantallas intermedias
+/* tamaño para pantallas intermedias*/
 @media(min-width: 640px) and (max-width: 1280 px){
 
  .formulario{
@@ -142,4 +142,3 @@
 }
 
 }
-*/

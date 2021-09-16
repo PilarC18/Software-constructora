@@ -28,161 +28,166 @@
                     <a href="/paginas/Index.html" class="btn btn-outline-success boton_s" type="submit">Salir
                         &raquo;</a>
                 </div>
+            </div>
+        </div>
     </header>
-    </br></br></br>
+    </br></br>
     <main>
         <div class="container-fluid p-3 border bg-light">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-3">
-                    <nav class="navbar navbar-dark bg-light">
-                        <div class="container-fluid p-3 border bg-light">
-                            <a class="navbar-brand" href="#">
-                                <img src="/img/pedido.png" alt="" width="60" height="48"
-                                    class="d-inline-block align-text-top">
-                                Registrar Pedidos
+                    <nav class="border bg-light rounded" >
+                        <li class="list-group-item active" aria-current="false">
+                            <a class="nav-link active" href="#" style="color: whitesmoke;">
+                                <img src="../img/pedido.png" width="50" height="50" role="img" preserveAspectRatio="none"
+                                    focusable="false"></img>
+                                Registrar pedido <span class="sr-only"></span>
                             </a>
-                        </div>
-                    </nav>
-                    <nav class="navbar navbar-light bg-light">
-                        <div class="container-fluid p-3 border bg-light">
-                            <a class="navbar-brand" href="#">
-                                <img src="/img/factura.png" alt="" width="60" height="48"
-                                    class="d-inline-block align-text-top">
-                                Autorizar Factura
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">
+                                <img src="../img/factura.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Autorizar factura
                             </a>
-                        </div>
-                    </nav>
-                    <nav class="navbar navbar-light bg-light">
-                        <div class="container-fluid p-3 border bg-light">
-                            <a class="navbar-brand" href="#">
-                                <img src="/img/Asignar_tarea.png" alt="" width="60" height="48"
-                                    class="d-inline-block align-text-top">
-                                Asignación de Tareas
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">
+                                <img src="../img/Asignar_tarea.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Asignar tareas
                             </a>
-                        </div>
-                    </nav>
-                    <nav class="navbar navbar-light bg-light">
-                        <div class="container-fluid p-3 border bg-light">
-                            <a class="navbar-brand" href="#">
-                                <img src="/img/progreso.png" alt="" width="60" height="48"
-                                    class="d-inline-block align-text-top">
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">
+                                <img src="../img/progreso.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
                                 Evaluación de avances
                             </a>
-                        </div>
-                    </nav>
-                    <nav class="navbar navbar-light bg-light">
-                        <div class="container-fluid p-3 border bg-light">
-                            <a class="navbar-brand" href="#">
-                                <img src="/img/reportes.png" alt="" width="60" height="48"
-                                    class="d-inline-block align-text-top">
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="#">
+                                <img src="../img/reportes.png" width="24" height="24" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
                                 Generar reportes
                             </a>
-                        </div>
+                        </li>
+                        </ul>
                     </nav>
                 </div>
-                <div class="col-12 col-md-6 col-xl-9">
-                    <center>
-                        <div class="container p-3 border bg-light">
-                            <h3 class="display-6">REGISTRAR PEDIDO</h3>
-                            <br />
-                            <br />
-                            <form class="from-register">
-                                <div class="container">
-                                    <div class="col-12 col-md-6 col-xl-9">
-                                        <label class=" form-label ">Número de proyecto </label>
-                                        <select class=" form-select " value="proyecto">
-                                            <option select> Elija una opción</option>
-                                            <option value="proyecto1">proyecto1</option>
-                                            <option value="proyecto2">proyecto2</option>
-                                            <option value="proyecto3">proyecto3</option>
-                                        </select> </br>
 
-                                        <label class="form_label" id="label_numero_orden_pedido"
-                                            form="numero_orden_pedido">Número de orden </label>
-                                        <input class="form-control" type="text" id="numero_orden_pedido"
-                                            name="txtNumeroOrdenPedido" placeholder="consecutivo"></br></br>
-                                        <label class="form_label" for="">Seleccione ubicación </label>
-                                        <select class="form-select" value="ubicación">
-                                            <option select>Elija una opción</option>
-                                            <option value="casa1">Casa1</option>
-                                            <option value="casa2">Casa2</option>
-                                            <option value="casa3">Casa3</option>
-                                        </select> </br>
-                                        <label class="form_label" for="">Número de pedido </label>
-                                        <select class="form-select" value="pedido">
-                                            <option select>Elija una opción</option>
-                                            <option value="Pedido1">Pedido1</option>
-                                            <option value="Pedido2">Pedido2</option>
-                                            <option value="Pedido3">Pedido3</option>
-                                        </select></br>
-                                        <label class="form_label"> Fecha de pedido: </label>
-                                        <input class="form-control" type="date" name="txtFechaPedido"> </br></br>
-                                    </div>
-                            </form>
-                        </div>
-                        </br>
-                        <h2 class="display-8"> Listado de materiales </h2>
-                        <br />
-                        <div class="container p-3 border bg-light">
-                            <div class="table-responsive">
-                                <table class="table table-striped table-hover">
-                                    <tr>
-                                        <th>N° ITEM</th>
-                                        <th>MATERIAL</th>
-                                        <th>ALMACEN</th>
-                                        <th>CANTIDAD</th>
-                                        <th>UM</th>
-                                        <th>TOTAL</th>
-                                        <th>USO</th>
-                                        <th>FECHA UTIL</th>
-                                        <th>OBSERVACION</th>
-                                    </tr>
-                                    <tr>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> ninguna </td>
-                                    </tr>
-                                    <tr>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> ninguna </td>
-                                    </tr>
-                                    <tr>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> ninguna </td>
-                                    </tr>
-                                </table>
+            <div class="col-12 col-md-6 col-xl-9">
+                <div class="container p-3 border bg-light rounded">
+                    <h3 class="display-6 text-center">REGISTRAR PEDIDO</h3>
+                    <br />
+                    <br />
+                    <form class="from-register">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label class="form-label">Proyecto </label>
+                                    <select class="form-select " value="proyecto">
+                                        <option select> Elija una opción</option>
+                                        <option value="proyecto1">proyecto1</option>
+                                        <option value="proyecto2">proyecto2</option>
+                                        <option value="proyecto3">proyecto3</option>
+                                    </select></br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Ubicación </label>
+                                    <select class="form-select" value="ubicación">
+                                        <option select>Elija una opción</option>
+                                        <option value="casa1">Casa1</option>
+                                        <option value="casa2">Casa2</option>
+                                        <option value="casa3">Casa3</option>
+                                    </select> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_numero_orden_pedido"
+                                        form="numero_orden_pedido">Número de orden </label>
+                                    <input class="form-control" type="text" id="numero_orden_pedido"
+                                        name="txtNumeroOrdenPedido" placeholder="consecutivo"> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Número de pedido </label>
+                                    <select class="form-select" value="pedido">
+                                        <option select>Elija una opción</option>
+                                        <option value="Pedido1">Pedido1</option>
+                                        <option value="Pedido2">Pedido2</option>
+                                        <option value="Pedido3">Pedido3</option>
+                                    </select> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label"> Fecha de pedido: </label>
+                                    <input class="form-control" type="date" name="txtFechaPedido"> </br></br>
+                                </div>
                             </div>
                         </div>
-                        </br>
-                        <button class="btn btn-outline-success boton_s" type="submit">Guardar</button>
-                        <button class="btn btn-outline-success boton_s" type="submit">cancelar</button>
-                        <button class="btn btn-outline-success boton_s" type="submit">Modificar</button>
-                </div>
-                </center>
-                </br>
+                    </form>
 
+                    </br>
+                    <h2 class="display-8 text-center"> Listado de materiales </h2>
+                    <br />
+                    <div class="container p-3 border bg-light rounded">
+                        <div class="table-responsive">
+                            <table class=" table table-striped table-hover">
+                                <tr>
+                                    <th>N° ITEM</th>
+                                    <th>MATERIAL</th>
+                                    <th>ALMACEN</th>
+                                    <th>CANTIDAD</th>
+                                    <th>UM</th>
+                                    <th>TOTAL</th>
+                                    <th>USO</th>
+                                    <th>FECHA UTIL</th>
+                                    <th>OBSERVACION</th>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> ninguna </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> ninguna </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> ninguna </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </br>
+                    <div class="col-md-6 text-center">
+                        <button type="button" class="btn btn-outline-success boton_s">Guardar</button>
+                        <button type="button" class="btn btn-outline-success boton_s">Modificar</button>
+                        <button type="button" class="btn btn-outline-success boton_s">Cancelar</button>
+                    </div>
+
+                    </br>
+                </div>
             </div>
-        </div>
         </div>
     </main>
 
