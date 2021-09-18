@@ -94,6 +94,17 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
+                                    <label class="form-label">Identificación del contratista </label>
+                                    <input class="form-control" type="text" id="id_contratista"
+                                        name="txtIdContratista" placeholder="ingrese el número de identificación del contratista"> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Nombres </label>
+                                    <input class="form-control" type="text" id="nombre_contratista"
+                                        name="txtNombreContratista" placeholder="Aquí aparece el nombre del contratista"> </br></br>
+                                </div>
+
+                                <div class="col-md-6">
                                     <label class="form-label">Proyecto </label>
                                     <select class="form-select " value="proyecto">
                                         <option select> Elija una opción</option>
@@ -103,8 +114,8 @@
                                     </select></br></br>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">Ubicación </label>
-                                    <select class="form-select" value="ubicación">
+                                    <label class="form-label">Unidad de vivienda </label>
+                                    <select class="form-select" value="casa">
                                         <option select>Elija una opción</option>
                                         <option value="casa1">Casa1</option>
                                         <option value="casa2">Casa2</option>
@@ -112,88 +123,36 @@
                                     </select> </br></br>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" id="label_numero_orden_pedido"
-                                        form="numero_orden_pedido">Número de orden </label>
-                                    <input class="form-control" type="text" id="numero_orden_pedido"
-                                        name="txtNumeroOrdenPedido" placeholder="consecutivo"> </br></br>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Número de pedido </label>
+                                    <label class="form-label">Actividad </label>
                                     <select class="form-select" value="pedido">
                                         <option select>Elija una opción</option>
-                                        <option value="Pedido1">Pedido1</option>
-                                        <option value="Pedido2">Pedido2</option>
-                                        <option value="Pedido3">Pedido3</option>
+                                        <option value="Pedido1">Actividad1</option>
+                                        <option value="Pedido2">Actividad2</option>
+                                        <option value="Pedido3">Actividad3</option>
                                     </select> </br></br>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label"> Fecha de pedido: </label>
-                                    <input class="form-control" type="date" name="txtFechaPedido"> </br></br>
+                                    <label class="form-label">Fase </label>
+                                    <input class="form-control" type="text" id="cod_fase"
+                                        name="txtCodFase" placeholder="Aquí aparece el nombre de la fase a la que corresponde la actividad"> </br></br>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <label class="form-label">Fecha de inicio: </label>
+                                    <input class="form-control" type="date" name="txtFechaInicioActiviad"> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Fecha de fin: </label>
+                                    <input class="form-control" type="date" name="txtFechaFinActividad"> </br></br>
                                 </div>
                             </div>
                         </div>
                     </form>
-
-                    </br>
-                    <h2 class="display-6 text-center"> Listado de materiales </h2>
-                    <br />
-                    <div class="container p-3 border bg-light rounded">
-                        <div class="table-responsive">
-                            <table class=" table table-striped table-hover">
-                                <tr >
-                                    <th>N° Item</th>
-                                    <th>Material</th>
-                                    <th>Almacen</th>
-                                    <th>Cantidad</th>
-                                    <th>Um</th>
-                                    <th>Total</th>
-                                    <th>Uso</th>
-                                    <th>Fecha Util</th>
-                                    <th>Observaciones</th>
-                                </tr>
-                                <tr>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> ninguna </td>
-                                </tr>
-                                <tr>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> ninguna </td>
-                                </tr>
-                                <tr>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td> ninguna </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    </br>
                     <div class="text-center">
                         <button type="button" class="btn btn-outline-success boton_s">Guardar</button>
                         <button type="button" class="btn btn-outline-success boton_s">Modificar</button>
                         <button type="button" class="btn btn-outline-success boton_s">Cancelar</button>
                     </div>
-
                     </br>
                 </div>
             </div>

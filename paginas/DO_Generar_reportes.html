@@ -38,7 +38,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <nav class="border bg-light rounded" >
                         <li class="list-group-item ">
-                            <a class="nav-link " href="/paginas/Director_obra.html" >
+                            <a class="nav-link " href="../paginas/Director_obra.html" >
                                 <img src="../img/home.png" width="30" height="30" role="img" preserveAspectRatio="none"
                                     focusable="false"></img>
                                 
@@ -46,28 +46,28 @@
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link active" href="/paginas/Registrar_Pedido.html">
+                            <a class="nav-link active" href="../paginas/Registrar_Pedido.html">
                                 <img src="../img/pedido.png" width="30" height="30" role="img"
                                     preserveAspectRatio="none" focusable="false"></img>
                                 Registrar pedido
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="/paginas/Autorizar_factura.html">
+                            <a class="nav-link" href="../paginas/Autorizar_factura.html">
                                 <img src="../img/factura.png" width="30" height="30" role="img"
                                     preserveAspectRatio="none" focusable="false"></img>
                                 Autorizar factura
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="/paginas/Asignar_actividad.html">
+                            <a class="nav-link" href="../paginas/Asignar_actividad.html">
                                 <img src="../img/Asignar_tarea.png" width="30" height="30" role="img"
                                     preserveAspectRatio="none" focusable="false"></img>
                                 Asignar actividad
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="/paginas/Evaluar_avances.html">
+                            <a class="nav-link" href="../paginas/Evaluar_avances.html">
                                 <img src="../img/progreso.png" width="30" height="30" role="img"
                                     preserveAspectRatio="none" focusable="false"></img>
                                 Evaluar avances
@@ -103,7 +103,7 @@
                                     </select></br></br>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label">Ubicación </label>
+                                    <label class="form-label">Unidad de vivienda </label>
                                     <select class="form-select" value="ubicación">
                                         <option select>Elija una opción</option>
                                         <option value="casa1">Casa1</option>
@@ -112,44 +112,37 @@
                                     </select> </br></br>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label" id="label_numero_orden_pedido"
-                                        form="numero_orden_pedido">Número de orden </label>
-                                    <input class="form-control" type="text" id="numero_orden_pedido"
-                                        name="txtNumeroOrdenPedido" placeholder="consecutivo"> </br></br>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label">Número de pedido </label>
+                                    <label class="form-label">Tipo de reporte </label>
                                     <select class="form-select" value="pedido">
                                         <option select>Elija una opción</option>
-                                        <option value="Pedido1">Pedido1</option>
-                                        <option value="Pedido2">Pedido2</option>
-                                        <option value="Pedido3">Pedido3</option>
+                                        <option value="Pedido1">Avance de obra</option>
+                                        <option value="Pedido2">Asignación de actividades</option>
+                                        <option value="Pedido3">Asignación de materiales</option>
                                     </select> </br></br>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="form-label"> Fecha de pedido: </label>
-                                    <input class="form-control" type="date" name="txtFechaPedido"> </br></br>
                                 </div>
                             </div>
                         </div>
                     </form>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-success boton_s">Generar</button>
+                    </div>
 
                     </br>
-                    <h2 class="display-6 text-center"> Listado de materiales </h2>
+                    <h2 class="display-6 text-center"> Reporte </h2>
                     <br />
                     <div class="container p-3 border bg-light rounded">
                         <div class="table-responsive">
                             <table class=" table table-striped table-hover">
                                 <tr >
-                                    <th>N° Item</th>
-                                    <th>Material</th>
-                                    <th>Almacen</th>
-                                    <th>Cantidad</th>
-                                    <th>Um</th>
-                                    <th>Total</th>
-                                    <th>Uso</th>
-                                    <th>Fecha Util</th>
-                                    <th>Observaciones</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
+                                    <th>Item</th>
                                 </tr>
                                 <tr>
                                     <td> </td>
@@ -189,8 +182,7 @@
                     </div>
                     </br>
                     <div class="text-center">
-                        <button type="button" class="btn btn-outline-success boton_s">Guardar</button>
-                        <button type="button" class="btn btn-outline-success boton_s">Modificar</button>
+                        <button type="button" class="btn btn-outline-success boton_s">Imprimir</button>
                         <button type="button" class="btn btn-outline-success boton_s">Cancelar</button>
                     </div>
 
