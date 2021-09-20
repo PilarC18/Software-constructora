@@ -1,0 +1,96 @@
+body{
+    background: #22353c;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: -.01em;
+}
+.d-block{
+    display: block;
+}
+.md-5{
+    margin-bottom: auto;
+}
+
+.mx-auto{
+margin-left: auto;
+margin-right: auto;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+}
+#loginform label{
+display: inline-block;
+}
+
+label{
+    font-size: 14px;
+    color:#e7e3e2;
+    margin-bottom: .25rem;
+    font-weight: 500;
+}
+.form-control, .input-text,#user_login,#user_pass{
+    height: 40px;
+    color: #272727;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.form-control, .input-text, #user_login,#user_pass{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    line-height: 1.25;
+    background-color: #dea26c;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 163, 163, 0.15);
+    border-radius: 0.25rem;
+}
+
+.text-gray-soft{
+    color: aqua;
+}
+
+.text-center{
+    text-align: center;
+}
+small, .small{
+    font-size: 80%;
+    font-weight: normal;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#loginform .login-remember{
+    display: none;
+}
+
+#loginform p{
+    margin-bottom: 1.5rem;
+}
+
+.form-sublink{
+    display: inline-block;
+    float: right;
+    color: violet;
+    font-size: 12px;
+    margin-top: .3rem;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
