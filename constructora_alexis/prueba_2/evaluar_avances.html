@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de inicio para el administrador</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+        <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="home.html">
+                <img src="img/logoBN.png" width="190px" height="50px" alt="">
+            </a>
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+            <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="administrador.html">Atras</a>
+            </div>
+            </div>
+        </header>
+        
+        <div class="container-fluid">
+            <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Director de obra
+                    </a>
+                    </li>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Director de obra</button>
+                        <ul class="dropdown-menu">
+                            <li>>
+                                <span class="dropdown-item" href="#">
+                                    <a href="director de obra.html">Pagina principal</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="registrar_pedido.html">Registrar pedido</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="autorizar_factura.html">Autorizar factura</a>
+                                </span>
+                            </li>
+                            <li>
+                                <img src="img/Asignar_tarea.png"  width="30" height="30" role="img" preserveAspectRatio="none" focusable="flase" alt="">
+                                <span class="dropdown-item" href="">
+                                <a href="asignar_actividad.html">Asignar actividad</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="evaluar_avances.html">Evaluar avances</a>
+                            </span>
+                        </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="generar_reportes.html">Generar reportes</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Almacenista</button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="almacen.html">Almacen</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="materiales.html"></a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                    <a href="informes.html"></a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="devoluciones.html"></a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Contratistas</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><span class="dropdown-item" href="materiales.html">Ordenar ODM</span></li>
+                            <li><span class="dropdown-item" href="">Devolver ODM</span></li>
+                            <li><span class="dropdown-item" href="">Inspeccionar</span></li>
+                            <li><span class="dropdown-item" href="">Reportar</span></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Proveedores</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="materiales.html">Lista de clientes</span></li>
+                            <li><span class="dropdown-item" href="">Nuevos clientes</span></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Administrador web</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="materiales.html">Materiales</span></li>
+                            <li><span class="dropdown-item" href="">Informes</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!--inicio de cambios-->
+            <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="container p-3 border bg-light rounded">
+                    <h3 class="display-6 text-center">EVALUAR AVANCES</h3>
+                    <br />
+                    <br />
+                    <form class="from-register">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label class="form-label">Proyecto </label>
+                                    <select class="form-select " value="proyecto">
+                                        <option select> Elija una opción</option>
+                                        <option value="proyecto1">proyecto1</option>
+                                        <option value="proyecto2">proyecto2</option>
+                                        <option value="proyecto3">proyecto3</option>
+                                    </select></br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Unidad de vivienda </label>
+                                    <select class="form-select" value="casa">
+                                        <option select>Elija una opción</option>
+                                        <option value="casa1">Casa1</option>
+                                        <option value="casa2">Casa2</option>
+                                        <option value="casa3">Casa3</option>
+                                    </select> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Fase </label>
+                                    <select class="form-select" value="pedido">
+                                        <option select>Elija una opción</option>
+                                        <option value="Pedido1">Fase1</option>
+                                        <option value="Pedido2">Fase2</option>
+                                        <option value="Pedido3">Fase3</option>
+                                    </select> </br></br>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <h2>Avances casa 1</h2>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"> Fase1</div>
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"> Fase2</div>
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Fase3</div>
+                                </div>
+                            </br>   
+                                
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 75%">Fase1-cimentación</div>
+                                </div>
+                            </br>
+                                
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> Actividad1 </div>
+                                </div>
+                            </br>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> Actividad2 </div>
+                                </div>
+                            </br>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 50%"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> Actividad3 </div>
+                                </div>
+                                </br>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> Actividad4</div>
+                                </div>
+                            </br>
+                            </div>
+                        </div>
+                    </div>
+                    </br>
+                    <h2 class="display-6 text-center">Listado de actividades </h2>
+                    <br />
+                    <div class="container p-3 border bg-light rounded">
+                        <div class="table-responsive">
+                            <table class=" table table-striped table-hover">
+                                <tr>
+                                    <th>Codigo de actividad</th>
+                                    <th>Nombre</th>
+                                    <th>Avance %</th>
+                                    <th>Avance en Um</th>
+                                    <th>Total en Um</th>
+                                    <th>Fecha de inicio</th>
+                                    <th>Fecha de fin</th>
+                                    <th>Identificación del contratista</th>
+                                    <th>Nombre del contratista</th>
+                                    <th>Observaciones</th>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> ninguna </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> ninguna </td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> ninguna </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </br>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-success boton_s">Imprimir</button>
+                    </div>
+
+                    </br>
+                </div>
+            </div>
+        </div>
+</main>
+
+<!--fin de cambios-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>

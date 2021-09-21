@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de inicio para el administrador</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+        <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="home.html">
+                <img src="img/logoBN.png" width="190px" height="50px" alt="">
+            </a>
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+            <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="home.html">Sign out</a>
+            </div>
+            </div>
+        </header>
+        
+        <div class="container-fluid">
+            <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                <ul class="nav flex-column">
+                    <!--<li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Director de obra
+                    </a>
+                    </li>-->
+
+                    <!--inicio prueba de boton con sub-menu-->
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Director de obra</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="#">
+                                    <a href="director de obra.html">Pagina principal</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="registrar_pedido.html">Registrar pedido</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="autorizar_factura.html">Autorizar factura</a>
+                                </span>
+                            </li>
+                            <li>
+                                <img src="img/Asignar_tarea.png"  width="30" height="30" role="img" preserveAspectRatio="none" focusable="flase" alt="">
+                                <span class="dropdown-item" href="">
+                                <a href="asignar_actividad.html">Asignar actividad</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="evaluar_avances.html">Evaluar avances</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="generar_reportes.html">Generar reportes</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--fin prueba de boton con sub-menu-->
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="file"></span>
+                        Almacenista
+                    </a>
+                    </li>-->
+                    <!--inicio prueba de boton con sub-menu almacenista-->
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Almacenista</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="">
+                                <a href="almacen.html">Almacen</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="materiales.html">Materiales</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                    <a href="informes.html">Informes</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="devoluciones.html">Devoluciones</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--fin de prueba-->
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="shopping-cart"></span>
+                        Contratistas
+                    </a>-->
+
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Contratistas</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="">
+                                <a href="ordenar_odm.html">Ordenar ODM</a>
+                                </span>
+                                </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                    <a href="devolver_odm">Devolver ODM</a>
+                                    </span>
+                                </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                    <a href="inspeccionar.html">Inspeccionar</a>
+                                    </span>
+                                </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                    <a href="reportar.hml">Reportar</a>
+                                    </span>
+                                </li>
+                        </ul>
+                    </div>
+                    </li>
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        Proveedores
+                    </a>
+                    </li>-->
+
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Proveedores</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="materiales.html">Lista de clientes</span></li>
+                            <li><span class="dropdown-item" href="">Nuevos clientes</span></li>
+                        </ul>
+                    </div>
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2"></span>
+                        Administrador web
+                    </a>
+                    </li>-->
+
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Administrador web</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="materiales.html">Materiales</span></li>
+                            <li><span class="dropdown-item" href="">Informes</span></li>
+                        </ul>
+                    </div>
+                    
+        
+                <!--<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    <span>Saved reports</span>
+                    <a class="link-secondary" href="#" aria-label="Add a new report">
+                    <span data-feather="plus-circle"></span>
+                    </a>
+                </h6>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Current month
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Last quarter
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Social engagement
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Year-end sale
+                    </a>
+                    </li>
+                </ul>-->
+                </div>
+            </nav>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" >
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Pagina principal</h1>
+
+                </div>
+            </main>
+        
+            
+            </div>
+        </div>
+        
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

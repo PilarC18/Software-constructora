@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de inicio para el administrador</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+        <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="home.html">
+                <img src="img/logoBN.png" width="190px" height="50px" alt="">
+            </a>
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+            <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="administrador.html">Atras</a>
+            </div>
+            </div>
+        </header>
+        
+        <div class="container-fluid">
+            <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Director de obra
+                    </a>
+                    </li>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Director de obra</button>
+                        <ul class="dropdown-menu">
+                            <li>>
+                                <span class="dropdown-item" href="#">
+                                    <a href="director de obra.html">Pagina principal</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="registrar_pedido.html">Registrar pedido</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="autorizar_factura.html">Autorizar factura</a>
+                                </span>
+                            </li>
+                            <li>
+                                <img src="img/Asignar_tarea.png"  width="30" height="30" role="img" preserveAspectRatio="none" focusable="flase" alt="">
+                                <span class="dropdown-item" href="">
+                                <a href="asignar_actividad.html">Asignar actividad</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="evaluar_avances.html">Evaluar avances</a>
+                            </span>
+                        </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="generar_reportes.html">Generar reportes</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Almacenista</button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="almacen.html">Almacen</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="materiales.html">Materiales</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                    <a href="informes.html">Informes</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dropdown-item" href="">
+                                <a href="devoluciones.html">Devoluciones</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Contratistas</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><span class="dropdown-item" href="materiales.html">Ordenar ODM</span></li>
+                            <li><span class="dropdown-item" href="">Devolver ODM</span></li>
+                            <li><span class="dropdown-item" href="">Inspeccionar</span></li>
+                            <li><span class="dropdown-item" href="">Reportar</span></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Proveedores</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="materiales.html">Lista de clientes</span></li>
+                            <li><span class="dropdown-item" href="">Nuevos clientes</span></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Administrador web</button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <span class="dropdown-item" href="materiales.html">Materiales</span></li>
+                            <li><span class="dropdown-item" href="">Informes</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!--inicio de cambios-->
+            <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="container p-3 border bg-light rounded">
+            <h3 class="display-6 text-center">Informe por estado individual</h3>
+        
+<div class="container">
+    <div class="row">
+
+        <div class= "col-12 col-md-6 col-xl-4">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione el almacen</option>
+                <option value="1">Sur</option>
+                <option value="2">Norte</option>
+                <option value="3">Oriente</option>
+            </select>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+            <select name="Material" class="form-select" aria-label="Default select example">
+                <option selected>Categoria</option>
+                <option value="1">Cemento</option>
+                <option value="2">Sanitaria</option>
+                <option value="3">PVC</option>
+                <option value="3">CPVC</option>
+                <option value="3">Puntilla</option>
+                <option value="3">Pintura</option>
+                <option value="3">Cubierta</option>
+                <option value="3">Electrica</option>
+            </select>
+        </div>  
+
+        <div class="col-12 col-md-6 col-xl-4">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Producto</option>
+                <option value="1">Uno</option>
+            </select>
+        </div>
+        
+    </div>
+</div> 
+
+</br></br>
+
+<center>
+</br></br>
+    <h1>informe de estado</h1>
+</br></br>
+</center>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col8 col-md-4 col-xl-5">
+            <table class="table table-dark table-hover">
+                <tr>   
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Minimo</th>
+                    <th>Pendiente</th>
+                    <th>Stock</th>
+                </tr>
+                <tr>
+                    <td>Cemento</td>
+                    <td>5</td>
+                    <td>20</td>
+                    <td>15</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>PVC</td>
+                    <td>15</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Manposteria</td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>21</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>CPVC</td>
+                    <td>28</td>
+                    <td>500</td>
+                    <td>210</td>
+                    <td>180</td>
+                </tr>
+              </table>
+        </div>
+        
+        <div class="col12 col-md-6 col-xl-7">
+            <img src="/img/Temporal.png" width="800" alt="">
+            <p>Comportamiento de stock general</p>
+        </div>
+
+        <div class="row">
+            <div class="col12 col-md-6 col-mx-6">
+                <img src="/img/Temporal1.png" width="600" alt="">
+                <p>Ingreso de materiales</p>
+            </div>
+            <div class="col12 col-md-6 col-mx-6">
+                <img src="/img/Temporal2.png" width="750" alt="">
+                <p>Salida de materiales</p>
+            </div>
+        </div>
+
+        <br><br><br><br><br>   
+    </div>
+</div>
+      
+<div class="card">
+    <div class="card-header">
+        Alerta
+    </div>
+<div class="card-body">
+    <blockquote class="blockquote mb-0">
+        <p>Es necesario hacer un pedido con urgencia.</p>
+    <footer class="blockquote-footer">Escalar con director de obra <cite title="Source Title">Alerta stock</cite></footer>
+    </blockquote>
+</div>
+
+
+</br></br>
+<!--fin de cambios-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
