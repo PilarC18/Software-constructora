@@ -35,7 +35,7 @@
             <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
             <div class="navbar-nav">
             <div class="nav-item text-nowrap">
-                <a class="nav-link px-3" href="home.html">Sign out</a>
+                <a class="nav-link px-3" href="administrador.html">Atras</a>
             </div>
             </div>
         </header>
@@ -45,18 +45,16 @@
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <div class="position-sticky pt-3">
                 <ul class="nav flex-column">
-                    <!--<li class="nav-item">
+                    <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
                         <span data-feather="home"></span>
                         Director de obra
                     </a>
-                    </li>-->
-
-                    <!--inicio prueba de boton con sub-menu-->
+                    </li>
                     <div class="btn-group dropend">
                         <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Director de obra</button>
                         <ul class="dropdown-menu">
-                            <li class="nav-item">
+                            <li>>
                                 <span class="dropdown-item" href="#">
                                     <a href="director de obra.html">Pagina principal</a>
                                 </span>
@@ -80,8 +78,8 @@
                             <li>
                                 <span class="dropdown-item" href="">
                                 <a href="evaluar_avances.html">Evaluar avances</a>
-                                </span>
-                            </li>
+                            </span>
+                        </li>
                             <li>
                                 <span class="dropdown-item" href="">
                                 <a href="generar_reportes.html">Generar reportes</a>
@@ -89,19 +87,10 @@
                             </li>
                         </ul>
                     </div>
-
-                    <!--fin prueba de boton con sub-menu-->
-                    <!--<li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file"></span>
-                        Almacenista
-                    </a>
-                    </li>-->
-                    <!--inicio prueba de boton con sub-menu almacenista-->
                     <div class="btn-group dropend">
                         <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Almacenista</button>
                         <ul class="dropdown-menu">
-                            <li class="nav-item">
+                            <li>
                                 <span class="dropdown-item" href="">
                                 <a href="almacen.html">Almacen</a>
                                 </span>
@@ -123,46 +112,16 @@
                             </li>
                         </ul>
                     </div>
-                    <!--fin de prueba-->
-                    <!--<li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="shopping-cart"></span>
-                        Contratistas
-                    </a>-->
-
                     <div class="btn-group dropend">
                         <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Contratistas</button>
                         <ul class="dropdown-menu">
-                            <li class="nav-item">
-                                <span class="dropdown-item" href="">
-                                <a href="ordenar_odm.html">Ordenar ODM</a>
-                                </span>
-                                </li>
-                            <li>
-                                <span class="dropdown-item" href="">
-                                    <a href="devolver_odm">Devolver ODM</a>
-                                    </span>
-                                </li>
-                            <li>
-                                <span class="dropdown-item" href="">
-                                    <a href="inspeccionar.html">Inspeccionar</a>
-                                    </span>
-                                </li>
-                            <li>
-                                <span class="dropdown-item" href="">
-                                    <a href="reportar.hml">Reportar</a>
-                                    </span>
-                                </li>
+                            <li class="nav-item"><span class="dropdown-item" href="materiales.html">Ordenar ODM</span></li>
+                            <li><span class="dropdown-item" href="">Devolver ODM</span></li>
+                            <li><span class="dropdown-item" href="">Inspeccionar</span></li>
+                            <li><span class="dropdown-item" href="">Reportar</span></li>
                         </ul>
                     </div>
                     </li>
-                    <!--<li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="users"></span>
-                        Proveedores
-                    </a>
-                    </li>-->
-
                     <div class="btn-group dropend">
                         <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Proveedores</button>
                         <ul class="dropdown-menu">
@@ -171,13 +130,6 @@
                             <li><span class="dropdown-item" href="">Nuevos clientes</span></li>
                         </ul>
                     </div>
-                    <!--<li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="bar-chart-2"></span>
-                        Administrador web
-                    </a>
-                    </li>-->
-
                     <div class="btn-group dropend">
                         <button type="button" class="btn btn-secundary dropdown-toogle" data-bs-toggle="dropdown" aria-expanded="false">Administrador web</button>
                         <ul class="dropdown-menu">
@@ -186,54 +138,95 @@
                             <li><span class="dropdown-item" href="">Informes</span></li>
                         </ul>
                     </div>
-                    
-        
-                <!--<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                    <span>Saved reports</span>
-                    <a class="link-secondary" href="#" aria-label="Add a new report">
-                    <span data-feather="plus-circle"></span>
-                    </a>
-                </h6>
-                <ul class="nav flex-column mb-2">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Current month
-                    </a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Last quarter
-                    </a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Social engagement
-                    </a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Year-end sale
-                    </a>
-                    </li>
-                </ul>-->
                 </div>
             </nav>
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" >
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Pagina principal</h1>
 
-                </div>
-            </main>
-        
+            <!--inicio de cambios-->
+            <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="container p-3 border bg-light rounded">
+            <h3 class="display-6 text-center">Registro de materiales</h3>
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Entrada material
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <strong>Ingrese la información cuando haya pasado la lista de verificación de recepción.</strong>
+          <p>tenga presente el registro del provedor por almacen.</p>
             
+            <div class="contanier-register">
+                <div class="row">
+                    <div class="col12 col-md-6 col-xl-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Almacen</option>
+                            <option value="1">Sur </option>
+                            <option value="2">Centro </option>
+                            <option value="3">Molinos </option>
+                        </select>
+                    </div>
+                    <div class="col12 col-md-6 col-xl-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Proveedor</option>
+                            <option value="1">Cementos Forte</option>
+                            <option value="2">Cemento Diamante</option>
+                            <option value="3">Aluminios hoy</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <select name="Material" class="form-select" aria-label="Default select example">
+                            <option selected>Categoria</option>
+                            <option value="1">Cemento</option>
+                            <option value="2">Sanitaria</option>
+                            <option value="3">PVC</option>
+                            <option value="3">CPVC</option>
+                            <option value="3">Puntilla</option>
+                            <option value="3">Pintura</option>
+                            <option value="3">Cubierta</option>
+                            <option value="3">Electrica</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+
+
             </div>
         </div>
-        
-<script src="js/bootstrap.bundle.min.js"></script>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Salida Material
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Devolución material
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+<!--fin de cambios-->
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/dashboard.js"></script>
 </body>
+
 </html>
