@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRAR PROVEEDOR</title>
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-3 border bg-light">
+            <div class="row">
+                <div class="logo_constructora col-12 col-md-6 col-xl-3">
+                    <a href="Index.html" target="blank">
+                        <img src="/img/logoBN.png" width="180" , height="80" alt="Mi página" />
+                    </a>
+                </div>
+                <div class=" usuario_c col-12 col-md-6 col-xl-6">
+                    <p class="fs-1 color_l">PROVEEDOR</p>
+                </div>
+                <div class="salir_c  col-12 col-md-6 col-xl-3">
+                    <a href="/paginas/Index.html" class="btn btn-outline-success boton_s" type="submit">Salir
+                        &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    </br></br>
+    <main>
+        <div class="container-fluid p-3 border bg-light">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <nav class="border bg-light rounded" >
+                        <li class="list-group-item ">
+                            <a class="nav-link " href="/paginas/Proveedor/Index PROVEEDOR.html" >
+                                <img src="/img/home.png" width="30" height="30" role="img" preserveAspectRatio="none"
+                                    focusable="false"></img>
+                                
+                                Pagina principal
+                            </a>
+                        </li>
+                        <li class="list-group-item active" aria-current="false">
+                            <a class="nav-link active" href="#" style="color: whitesmoke;">
+                                <img src="/img/descargaccc.png" width="30" height="30" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                    <span class="sr-only"></span>
+                                Registrar Nuevo Proveedor
+                          
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="/paginas/Proveedor/Mostrar Proveedor.html">
+                                <img src="/img/proveedor1.jpeg" width="30" height="30" role="img"
+                                    preserveAspectRatio="none" focusable="false"></img>
+                                Mostrar Proveedor
+                            
+                            </a>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            <div class="col-12 col-md-6 col-xl-9">
+                <div class="container p-3 border bg-light rounded">
+                    <h3 class="display-6 text-center">REGISTRAR NUEVO PROVEEDOR</h3>
+                    
+                    <br />
+                    <br />
+                    <form class="from-register">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_codigo_del_proveedor"
+                                        form="codigo_del_proveedor">Código del proveedor </label>
+                                    <input class="form-control" type="text" id="codigo_del_proveedor"
+                                        name="txtcodigo_del_proveedor" placeholder="Ingresar el codigo "> </br></br>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_Nombre_de_la_Empresa"
+                                        form="Nombre_de_la_Empresa">Nombre de la Empresa </label>
+                                    <input class="form-control" type="text" id="Nombre_de_la_Empresa"
+                                        name="txtNombre_de_la_Empresa" placeholder="Empresa "> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_Direccion"
+                                        form="Nombre_Direccion">Dirección </label>
+                                    <input class="form-control" type="text" id="Direccion"
+                                        name="txtDireccion" placeholder="Ej: Cll, AV, Diag, # "> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_NIT"
+                                        form="NIT">NIT </label>
+                                    <input class="form-control" type="text" id="NIT"
+                                        name="txtNIT" placeholder="Número"> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_proveedor"
+                                        form="Nombre_Proveedor">Persona de Contacto </label>
+                                    <input class="form-control" type="text" id="Nombre_Proveedor"
+                                        name="txtNombreProveedor" placeholder="Nombre Completo"> </br></br>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <label class="form-label">Sector Económico </label>
+                                    <select class="form-select " value="proyecto">
+                                        <option select> Elija una opción</option>
+                                        <option value="Sector1">Agrícola</option>
+                                        <option value="Sector2">Industrial</option>
+                                        <option value="Sector3">Prestación de Servicios</option>
+                                    </select></br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_Web"
+                                        form="Web">Dirección Web </label>
+                                    <input class="form-control" type="text" id="Web"
+                                        name="txtWeb" placeholder="Pagina Web"> </br></br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_Email"
+                                        form="Email">Email </label>
+                                    <input class="form-control" type="text" id="Email"
+                                        name="txtEmail" placeholder="name@example.com "> </br></br>
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" id="label_Telefono"
+                                        form="Web">Teléfono</label>
+                                    <input class="form-control" type="text" id="Telefono"
+                                        name="txtTelefono" placeholder="Telefono"> </br></br>
+                                </div>
+                                
+                        </div>
+                    </form>
+                   
+
+                   
+                   
+                    
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-success boton_s">Guardar</button>
+                        <button type="button" class="btn btn-outline-success boton_s">Modificar</button>
+                        <button type="button" class="btn btn-outline-success boton_s">Cancelar</button>
+                        
+                    </div>
+
+                    </br>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="container" width="80"></br>
+        
+        <p class="float-left"> Desarrollado por: Grupo Orion</p>
+        <p>&copy; 2021 Group. Misión TICs. &middot; </p>
+    </footer>
+</body>
+
+</html>
