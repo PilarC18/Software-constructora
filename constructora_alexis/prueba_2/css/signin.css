@@ -37,3 +37,19 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/*inicio codigo personal*/
+
+body{
+  background: #22353c;
+}
+
+.fw-normal, label, a{
+  color: #e7e3e2;
+}
+
+.btn-primary, .form-control{
+  background-color: #05080d;
+}
+
+
